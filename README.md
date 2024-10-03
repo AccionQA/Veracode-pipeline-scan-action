@@ -234,7 +234,7 @@ Sort out previous findings using a baseline file, create a new baseline file and
   ```     
 
 ## Compile the action  
-The action comes pre-compiled as transpiled JavaScript. If you want to fork and build it on your own you need NPM to be installed, use `ncc` to compile all node modules into a single file, so they don't need to be installed on every action run. The command to build is simply  
+The action comes pre-compiled as transpiled JavaScript. If you want to fork and build it on your own you need NPM to be installed, use `ncc` to compile all node modules into a single file, so they don't need to be installed on every action run. The command to build is simply...
 
 ```sh
 ncc build ./src/index.ts  

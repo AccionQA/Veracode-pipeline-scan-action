@@ -240,3 +240,4 @@ The action comes pre-compiled as transpiled JavaScript. If you want to fork and 
 ncc build ./src/index.ts  
 ```
 ccc
+ss
